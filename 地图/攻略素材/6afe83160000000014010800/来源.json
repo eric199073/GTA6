@@ -1,0 +1,111 @@
+{
+  "source": {
+    "author": "游Qia",
+    "type": "video",
+    "durationSeconds": 53,
+    "title": "GTA6开局缺钱？先去这两个地方",
+    "url": "https://www.rednote.com/discovery/item/6afe83160000000014010800?xsec_token=ABvgluPV2qb-IkbqWDwXDfyneOVWg4Zl5ikBG9jupofOY=&xsec_source=pc_user",
+    "canonicalUrl": "https://www.rednote.com/discovery/item/6afe83160000000014010800"
+  },
+  "duplicate": {
+    "existingMarkerNumber": 7,
+    "existingMarkerId": "kingfishers-w22",
+    "evidence": "视频00:24岛上 Robbery Opportunity 与00:36 FISHING SHACKS / Wetman Bay 对应原7号营地。",
+    "registration": {
+      "homography": [
+        [
+          0.9877370456633754,
+          -0.00045112927406948925,
+          36.4081285936501
+        ],
+        [
+          -0.0007390724039415551,
+          0.9868952243476615,
+          216.59118567672508
+        ],
+        [
+          -1.2413372195698932e-06,
+          -1.8465758272301612e-06,
+          1.0
+        ]
+      ],
+      "point": [
+        486.82232666015625,
+        1044.969482421875
+      ],
+      "matches": 196,
+      "inliers": 181,
+      "sourceFrame": 36,
+      "sourceCrop": [
+        0,
+        366,
+        720,
+        850
+      ],
+      "sourcePoint": [
+        264,
+        582
+      ],
+      "referenceCrop": [
+        1650,
+        3750,
+        2650,
+        4600
+      ]
+    }
+  },
+  "newMarker": {
+    "number": 14,
+    "id": "key-lento-strange-noises",
+    "registration": {
+      "homography": [
+        [
+          0.4356355729311265,
+          0.3338225823987053,
+          544.8980121267747
+        ],
+        [
+          0.0050057736377511815,
+          0.790034460479429,
+          232.14304210291084
+        ],
+        [
+          1.4608687831579057e-05,
+          0.0005115602497364188,
+          1.0
+        ]
+      ],
+      "point": [
+        614.225341796875,
+        1140.1171875
+      ],
+      "matches": 244,
+      "inliers": 20,
+      "sourceFrame": 15,
+      "sourceCrop": [
+        0,
+        366,
+        720,
+        850
+      ],
+      "sourcePoint": [
+        264,
+        578
+      ],
+      "referenceCrop": [
+        1800,
+        4200,
+        2800,
+        5050
+      ]
+    },
+    "visualCheck": "已对照投影后的海岸、公路与码头轮廓。"
+  },
+  "crop": [
+    0,
+    366,
+    720,
+    850
+  ],
+  "notes": "仅归档定位选帧与来源，不归档完整视频。"
+}

@@ -507,18 +507,19 @@ window.GTA6_MARKERS = {
       "id": "kingfishers-w22",
       "title": "翠鸟帮营地：W-22 消音步枪",
       "pinLabel": "翠鸟帮 W-22 消音步枪",
-      "location": "视频第一处 · 翠鸟帮营地",
+      "location": "Wetman Bay 渔棚 · Cottonmouth Lake 西侧岛屿",
       "rewards": [
-        "翠鸟帮 W-22 小型猎用步枪（带消音器）"
+        "翠鸟帮 W-22 小型猎用步枪（带消音器）",
+        "营地现金与可销赃物资（新视频未单列收益金额）"
       ],
       "position": {
-        "x": 504.88,
-        "y": 1064.11,
-        "radius": 11.96,
-        "accuracy": "regional-reference",
-        "note": "按视频中的 Wetman Bay、Hamlet 与海岸形状对应，营地附近参考点；进屋取枪请看原图。"
+        "x": 486.82,
+        "y": 1044.97,
+        "radius": 4,
+        "accuracy": "screenshot-road-alignment",
+        "note": "新视频00:36明确标注 FISHING SHACKS（Wetman Bay）；由181处一致地图特征重新对应，比原全境区域参考更精确。"
       },
-      "rewardNote": "武器名称按视频画面或作者称呼记录。",
+      "rewardNote": "W-22名称沿用原武器攻略。新视频补充同一据点的现金、物资及特殊猎枪，未公布固定收益；画面HUD余额不作为搜刮所得。",
       "source": {
         "author": "钞钞子呀（主机游戏）",
         "type": "video",
@@ -555,15 +556,52 @@ window.GTA6_MARKERS = {
       "number": 7,
       "shortTitle": "翠鸟帮 W-22",
       "categories": [
-        "weapon"
+        "weapon",
+        "cash"
       ],
       "posterPosition": {
-        "x": 1294,
-        "y": 2934,
-        "radius": 35,
+        "x": 1241.15,
+        "y": 2877.97,
+        "radius": 12,
         "accuracy": "regional-reference",
         "note": "按视频中的 Wetman Bay、Hamlet 与海岸形状对应，营地附近参考点；进屋取枪请看原图。"
-      }
+      },
+      "additionalGuides": [
+        {
+          "title": "重复地点补充：渔棚搜刮与完成检查",
+          "source": {
+            "author": "游Qia",
+            "type": "video",
+            "durationSeconds": 53,
+            "title": "GTA6开局缺钱？先去这两个地方",
+            "url": "https://www.rednote.com/discovery/item/6afe83160000000014010800?xsec_token=ABvgluPV2qb-IkbqWDwXDfyneOVWg4Zl5ikBG9jupofOY=&xsec_source=pc_user",
+            "canonicalUrl": "https://www.rednote.com/discovery/item/6afe83160000000014010800"
+          },
+          "summary": "此视频的“渔棚 / Fishing Shacks”与本点是同一据点，合并记录，保留原7号与完成进度。",
+          "steps": [
+            "00:21–00:24：从 Key Lento 往北，沿 Cottonmouth Lake 西侧找到岛上渔棚；导航目标在岛上，不是人物所在位置。",
+            "00:27–00:31：搜查屋内现金和可销赃物资，检查武器箱；视频称这里有特殊版本的猎枪。",
+            "00:33–00:36：把地图光标移到 Fishing Shacks 据点图标，查看 All key valuables found 是否出现，确认关键贵重物品拿齐。",
+            "00:39–00:51：尽量潜行、绕开守卫，附近有人时开枪容易引发报警。"
+          ],
+          "notes": [
+            "新视频未展示可核对的武器型号，因此沿用原攻略W-22称呼，不新增一把未经核实的武器。"
+          ]
+        }
+      ],
+      "alternateMaps": [
+        {
+          "image": "攻略素材/6afe83160000000014010800/渔棚完成检查定位图.jpg",
+          "width": 720,
+          "height": 484,
+          "point": {
+            "x": 264,
+            "y": 216
+          },
+          "caption": "渔棚 / Fishing Shacks · 补充视频00:36",
+          "note": "十字对齐渔棚据点图标。画面文字确认该地点在 Wetman Bay；白色箭头指向“全部关键贵重物品已找到”的检查提示。"
+        }
+      ]
     },
     {
       "id": "gun-nut-sms01",
@@ -962,6 +1000,74 @@ window.GTA6_MARKERS = {
         ],
         "notes": [
           "旅馆与武器点单独编号13，避免与8号SMS-01狙击枪混淆。"
+        ]
+      },
+      "updated": "2026-11-21"
+    },
+    {
+      "id": "key-lento-strange-noises",
+      "number": 14,
+      "shortTitle": "奇怪的声音",
+      "title": "奇怪的声音：酒类商店搜刮点",
+      "pinLabel": "现金与贵重物资",
+      "categories": [
+        "cash"
+      ],
+      "location": "Key Lento · 杰森安全屋附近的酒类商店",
+      "position": {
+        "x": 614.23,
+        "y": 1140.12,
+        "radius": 6,
+        "accuracy": "screenshot-road-alignment",
+        "note": "以视频00:15选中的 STRANGE NOISES 据点图标对应底图，20处一致特征并对照海岸、公路与码头轮廓；不是其东北方的人物箭头。"
+      },
+      "posterPosition": {
+        "x": 1614.02,
+        "y": 3156.48,
+        "radius": 18
+      },
+      "rewards": [
+        "可搜刮现金与贵重物资（视频未单列此点金额）"
+      ],
+      "rewardNote": "此处是开局顺路搜刮点；作者未给出固定收益或单独的武器型号。",
+      "source": {
+        "author": "游Qia",
+        "type": "video",
+        "durationSeconds": 53,
+        "title": "GTA6开局缺钱？先去这两个地方",
+        "url": "https://www.rednote.com/discovery/item/6afe83160000000014010800?xsec_token=ABvgluPV2qb-IkbqWDwXDfyneOVWg4Zl5ikBG9jupofOY=&xsec_source=pc_user",
+        "canonicalUrl": "https://www.rednote.com/discovery/item/6afe83160000000014010800"
+      },
+      "detailMap": {
+        "image": "攻略素材/6afe83160000000014010800/奇怪的声音定位图.jpg",
+        "width": 720,
+        "height": 484,
+        "point": {
+          "x": 264,
+          "y": 212
+        },
+        "caption": "奇怪的声音 / STRANGE NOISES · 视频00:15",
+        "note": "十字对齐黄色事件图标。提示称酒类商店店员被后屋的事情分散了注意力；人物箭头在该点东北侧。"
+      },
+      "mapScreenshot": "攻略素材/6afe83160000000014010800/奇怪的声音定位图.jpg",
+      "requirements": "到店后留意店员与后屋线索，具体进入方式按现场事件提示操作。",
+      "walkthrough": {
+        "steps": [
+          {
+            "time": "00:14–00:16",
+            "text": "前往地图所选的 STRANGE NOISES 酒类商店；作者称该点就在杰森安全屋附近。"
+          },
+          {
+            "time": "00:15–00:18",
+            "text": "进店观察店员与后屋事件，按现场提示处理后搜查现金和贵重物资。"
+          },
+          {
+            "time": "00:39–00:51",
+            "text": "视频对这类据点的通用建议是尽量潜行、绕开守卫，避免在人多时开枪引发报警。"
+          }
+        ],
+        "notes": [
+          "本视频另一处“渔棚”与7号重复，相关武器和完成检查方法已合并到7号，未重复编号。"
         ]
       },
       "updated": "2026-11-21"

@@ -9,8 +9,8 @@
     6
   ],
   "detailRadiusInOverviewPixels": 48,
-  "tileCount": 2013,
+  "tileCount": 2169,
   "note": "远程图块响应携带 Cross-Origin-Resource-Policy: same-origin；页面使用本地资源。",
-  "markerCount": 13,
-  "coverage": "现有13个攻略点周边48逻辑像素，4–6级；全境底图为第3级"
+  "markerCount": 14,
+  "coverage": "现有14个攻略点周边48逻辑像素，4–6级；全境底图为第3级"
 }
