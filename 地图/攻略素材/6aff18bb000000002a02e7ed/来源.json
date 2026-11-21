@@ -1,0 +1,41 @@
+{
+  "source": {
+    "author": "您哪位？",
+    "type": "normal",
+    "title": "G.TA6快速赚够前期的钱",
+    "url": "https://www.rednote.com/discovery/item/6aff18bb000000002a02e7ed?xsec_token=AB1aMqzU8KjRceqenFS4U0_BX6X7KEk8XCUd9X0DUD-xA=&xsec_source=pc_user",
+    "canonicalUrl": "https://www.rednote.com/discovery/item/6aff18bb000000002a02e7ed"
+  },
+  "markerId": "hamlet-red-warehouse",
+  "mapImage": 3,
+  "point": [
+    671,
+    630
+  ],
+  "registration": {
+    "H": [
+      [
+        0.4468052853438093,
+        0.009891679776528758,
+        199.12177080892283
+      ],
+      [
+        -0.008658969165936852,
+        0.46598136590240025,
+        148.76346239453883
+      ],
+      [
+        -1.6843852442240796e-05,
+        2.641202338748512e-05,
+        1.0
+      ]
+    ],
+    "point": [
+      650.7884521484375,
+      948.3265991210938
+    ],
+    "inliers": 59,
+    "matches": 238
+  },
+  "note": "同一红仓库合并进2号，未新增重复编号；刷钱效果仅按作者经验记录。"
+}

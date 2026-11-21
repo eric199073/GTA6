@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTA6 攻略地图</title>
+  <link rel="stylesheet" href="map.css?v=20261121-local-hd">
+  <script src="markers.js?v=20261121-local-hd" defer></script>
+  <script src="tiles-manifest.js?v=20261121-local-hd" defer></script>
+  <script src="map.js?v=20261121-local-hd" defer></script>
+</head>
+<body>
+  <header class="header"><div><h1>GTA6 攻略地图</h1><p>定位、奖励与领取步骤，同页查看。</p></div><a href="guides.html#don-gone-revolver">Don Gone 防错过备注</a></header>
+  <main class="layout">
+
+    <section class="map-column" aria-label="Leonida 攻略地点地图">
+      <p class="eyebrow">Leonida 全境地图 · 点击编号展开攻略</p>
+      <div class="map-tools" aria-label="地图缩放"><button type="button" id="zoom-in" aria-label="放大地图">＋</button><button type="button" id="zoom-out" aria-label="缩小地图">−</button><button type="button" id="fit-map">适合窗口</button><span>拖动平移 · 滚轮缩放</span></div>
+      <p id="tile-status" class="eyebrow" role="status">全境底图和攻略地点高清图块均从本地加载</p>
+      <div class="map-viewport" id="map-viewport">
+        <svg id="map-svg" viewBox="125 140 850 1165" role="img" aria-label="Leonida 游戏地图，攻略参考范围以虚线圈标出">
+          <image id="map-image" href="Leonida 游戏地图高清.jpg" width="1280" height="1536"/>
+          <g id="map-tiles" aria-hidden="true"></g>
+          <g id="map-regions"></g>
+        </svg>
+        <svg id="map-leaders" aria-hidden="true"></svg>
+        <div id="map-pins"></div>
+      </div>
+      <p class="map-credit" id="map-credit">底图 © Rockstar Games · 底图来源 <a href="https://www.gtabase.com/gta-6/map/" target="_blank" rel="noopener">GTABase</a> · 攻略标记由本页保存，无5点限制。虚线圈为参考范围，具体位置见详情定位图。</p>
+    </section>
+    <aside class="place-nav" aria-label="攻略地点列表">
+      <p class="eyebrow" id="marker-count"></p>
+      <div class="progress-filters" role="group" aria-label="按进度筛选">
+        <button type="button" id="filter-all" aria-pressed="true">全部</button>
+        <button type="button" id="filter-incomplete" aria-pressed="false">未完成</button>
+        <button type="button" id="filter-starred" aria-pressed="false">★ 想去</button>
+        <button type="button" id="filter-completed" aria-pressed="false">已完成</button>
+      </div>
+      <p id="save-status" class="save-status" role="status" aria-live="polite" hidden></p>
+      <nav id="marker-list" aria-label="选择攻略地点"></nav>
+      <p id="filter-empty" class="empty-message" role="status" hidden>没有符合条件的地点，可以切换筛选。</p>
+    </aside>
+  </main>
+  <noscript>请启用 JavaScript 使用地图标记，或直接打开 <a href="guides.html">文字攻略</a>。</noscript>
+</body>
+</html>

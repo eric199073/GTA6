@@ -1,0 +1,16 @@
+{
+  "source": "https://www.gtabase.com/gta-6/map/",
+  "sourceTemplate": "https://www.gtabase.com/images/gta-6/maps/tiles/in-game/{z}/{z},{y},{x}.jpg",
+  "date": "2026-11-21",
+  "overviewLevel": 3,
+  "detailLevels": [
+    4,
+    5,
+    6
+  ],
+  "detailRadiusInOverviewPixels": 48,
+  "tileCount": 2013,
+  "note": "远程图块响应携带 Cross-Origin-Resource-Policy: same-origin；页面使用本地资源。",
+  "markerCount": 13,
+  "coverage": "现有13个攻略点周边48逻辑像素，4–6级；全境底图为第3级"
+}

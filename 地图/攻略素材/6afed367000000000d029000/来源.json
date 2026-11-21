@@ -1,0 +1,47 @@
+{
+  "source": {
+    "author": "游Qia",
+    "type": "video",
+    "title": "GTA6｜开局白捡狙击枪＋3000刀！",
+    "durationSeconds": 62,
+    "url": "https://www.rednote.com/discovery/item/6afed367000000000d029000?xsec_token=ABvgluPV2qb-IkbqWDwXDfyi3M41mTEWi6bIx-oD-hoFY=&xsec_source=pc_user&source=web_user_page",
+    "canonicalUrl": "https://www.rednote.com/discovery/item/6afed367000000000d029000"
+  },
+  "mapFrameSeconds": 10,
+  "crop": [
+    0,
+    240,
+    720,
+    725
+  ],
+  "point": [
+    360,
+    400
+  ],
+  "registration": {
+    "H": [
+      [
+        0.922899971788725,
+        0.005244979905163929,
+        -104.73519857945948
+      ],
+      [
+        0.011774176101578574,
+        0.929089584101488,
+        283.30325918885535
+      ],
+      [
+        1.79086827932146e-05,
+        1.2565637551324926e-05,
+        1.0
+      ]
+    ],
+    "point": [
+      581.7505493164062,
+      1025.4251708984375
+    ],
+    "inliers": 46,
+    "matches": 65
+  },
+  "weaponFrameSeconds": 51
+}
