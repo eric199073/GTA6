@@ -667,19 +667,19 @@ window.GTA6_MARKERS = {
     },
     {
       "id": "gold-ak-route",
-      "title": "营地潜入：黄金 AK",
+      "title": "黄金 AK：桥边潜入入口",
       "pinLabel": "黄金 AK · 保险箱 7777",
-      "location": "视频第三处 · 主干道旁营地",
+      "location": "哈姆雷特南侧 · 主干道桥西的修车场接近路线",
       "rewards": [
         "黄金 AK（视频称呼）",
         "保险箱物品，密码 7777"
       ],
       "position": {
-        "x": 619.69,
-        "y": 953.37,
-        "radius": 27.33,
-        "accuracy": "regional-reference",
-        "note": "暂按 Hamlet 北侧公路与临水路段作区域参考，尚未完成道路逐点校准；此点表示路线起点，不是保险箱。"
+        "x": 610.73,
+        "y": 1014.04,
+        "radius": 3.5,
+        "accuracy": "screenshot-road-alignment",
+        "note": "2026-11-23按视频00:45桥梁、河道与路网的40处一致特征校正。旧点偏北，现为哈姆雷特南侧桥西的潜入起点；枪械与保险箱在进入修车场后，按步骤继续走。"
       },
       "rewardNote": "武器名称按视频画面或作者称呼记录。",
       "source": {
@@ -698,16 +698,16 @@ window.GTA6_MARKERS = {
           "x": 563,
           "y": 339
         },
-        "caption": "黄金 AK 接近路线起点 · 视频00:45",
-        "note": "这是视频开始潜入的主路边起点，不是枪械最终摆放位置；屋顶、保险箱和回头取枪路线见步骤。"
+        "caption": "黄金 AK 潜入入口 · 视频00:45（已校准）",
+        "note": "十字对齐桥西的路线起点；沿视频接近围栏、翻车顶和屋顶进入修车场，再开保险箱、折返取枪。此图没有展示枪械最终摆放坐标。"
       },
       "mapScreenshot": "攻略素材/6aff9f36000000002903c8c6/黄金AK路线起点.jpg",
-      "updated": "2026-11-21",
+      "updated": "2026-11-23",
       "walkthrough": {
         "steps": [
           {
             "time": "00:42–00:46",
-            "text": "沿主干道到定位图中所示位置。"
+            "text": "到哈姆雷特南侧主干道桥西的定位点，从桥边按视频路线接近修车场围栏。"
           },
           {
             "time": "00:47–01:05",
@@ -725,16 +725,16 @@ window.GTA6_MARKERS = {
       },
       "requirements": "视频称现场车辆的登记需到第二章解锁认证权限后再回来处理。",
       "number": 9,
-      "shortTitle": "黄金 AK",
+      "shortTitle": "黄金 AK 入口",
       "categories": [
         "weapon"
       ],
       "posterPosition": {
-        "x": 1630,
-        "y": 2610,
-        "radius": 80,
-        "accuracy": "regional-reference",
-        "note": "暂按 Hamlet 北侧公路与临水路段作区域参考，尚未完成道路逐点校准；此点表示路线起点，不是保险箱。"
+        "x": 1603.78,
+        "y": 2787.52,
+        "radius": 10,
+        "accuracy": "screenshot-road-alignment",
+        "note": "由已校准的游戏地图入口坐标转换到海报。"
       }
     },
     {
@@ -1071,6 +1071,100 @@ window.GTA6_MARKERS = {
         ]
       },
       "updated": "2026-11-21"
+    },
+    {
+      "id": "bayside-apartment-pink-car",
+      "number": 15,
+      "title": "第三章粉色跑车：公寓笔记本解谜",
+      "shortTitle": "粉色跑车车库",
+      "pinLabel": "粉色跑车 · 门禁92665",
+      "location": "傍湾区公寓201号西侧街区 · LaPerle车库",
+      "categories": [
+        "vehicle"
+      ],
+      "rewards": [
+        "粉色跑车（作者称“粉色保时捷”，游戏正式车型名未核对）"
+      ],
+      "rewardNote": "电脑登录答案按视频依次为“玛芬（Muffin）→ 女王（Queen）→ 15”；车库门禁码为92665。取车与登记按现场提示处理。",
+      "requirements": "按视频流程，第三章进入傍湾区公寓201号后，完成桌上笔记本电脑的线索解谜。",
+      "position": {
+        "x": 704.89,
+        "y": 682.75,
+        "radius": 4,
+        "accuracy": "screenshot-road-alignment",
+        "note": "主标记为00:39中央选取圈所指的车库。通过00:39与00:36之间224处一致特征，再用公寓图与底图74处一致特征对应；已核对两图街区与公路轮廓。"
+      },
+      "posterPosition": {
+        "x": 1879.29,
+        "y": 1818.23,
+        "radius": 12
+      },
+      "source": {
+        "author": "咖喱游戏解说",
+        "type": "video",
+        "durationSeconds": 51,
+        "title": "GTA6第三章必拿的粉色保时捷！",
+        "url": "https://www.rednote.com/discovery/item/6b003446000000002a00f4f2?xsec_token=ABO2KwdpdJgiCGK-Z59GgAqc_Mg4fPwebJipeLzwINTd0=&xsec_source=pc_user&source=web_user_page",
+        "canonicalUrl": "https://www.rednote.com/discovery/item/6b003446000000002a00f4f2"
+      },
+      "detailMap": {
+        "image": "攻略素材/6b003446000000002a00f4f2/粉色跑车车库定位图.jpg",
+        "width": 1210,
+        "height": 540,
+        "point": {
+          "x": 570,
+          "y": 298
+        },
+        "caption": "奖励地点：粉色跑车车库 · 视频00:39",
+        "note": "十字对齐作者地图中央的白色选取圈；人物与绿色星标在该建筑北侧街口。到现场沿院子往里，找最里面的上锁车库。"
+      },
+      "mapScreenshot": "攻略素材/6b003446000000002a00f4f2/粉色跑车车库定位图.jpg",
+      "alternateMaps": [
+        {
+          "image": "攻略素材/6b003446000000002a00f4f2/公寓201前置定位图.jpg",
+          "width": 1210,
+          "height": 540,
+          "point": {
+            "x": 570,
+            "y": 308
+          },
+          "caption": "前置地点：傍湾区公寓201号 · 视频00:36",
+          "note": "十字对齐绿色公寓图标。先到此公寓解电脑，再去其西侧的15号车库；这是前置地点，地图主标记放在奖励车库。"
+        }
+      ],
+      "walkthrough": {
+        "steps": [
+          {
+            "time": "00:03–00:09",
+            "text": "第三章进入傍湾区公寓201号，调查桌上的笔记本电脑。"
+          },
+          {
+            "time": "00:09–00:14",
+            "text": "到梳妆台调查笔记本线索，翻到背面查看文字。"
+          },
+          {
+            "time": "00:15–00:22",
+            "text": "到外面的厨房区域，拿起相框，显示文字并查看第二条线索。"
+          },
+          {
+            "time": "00:23–00:29",
+            "text": "回电脑登录，依次选择“玛芬（Muffin）”“女王（Queen）”“15”。"
+          },
+          {
+            "time": "00:30–00:34",
+            "text": "翻看最后一条信息，画面明确给出LaPerle车库门禁码92665，位置在Auntie’s Place旁。"
+          },
+          {
+            "time": "00:35–00:39",
+            "text": "按奖励定位图前往公寓西侧街区的车库，别把前置公寓图标当成奖励地点。"
+          },
+          {
+            "time": "00:41–00:46",
+            "text": "沿院子走到最里面，在上锁车库输入92665，进去取粉色跑车。"
+          }
+        ]
+      },
+      "updated": "2026-11-23"
     }
   ]
 };

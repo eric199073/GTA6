@@ -1,0 +1,139 @@
+{
+  "source": {
+    "author": "咖喱游戏解说",
+    "type": "video",
+    "durationSeconds": 51,
+    "title": "GTA6第三章必拿的粉色保时捷！",
+    "url": "https://www.rednote.com/discovery/item/6b003446000000002a00f4f2?xsec_token=ABO2KwdpdJgiCGK-Z59GgAqc_Mg4fPwebJipeLzwINTd0=&xsec_source=pc_user&source=web_user_page",
+    "canonicalUrl": "https://www.rednote.com/discovery/item/6b003446000000002a00f4f2"
+  },
+  "duplicateCheck": "与原4处豪车点及其他14个点不同；新增15号，主标记为车库，公寓定位放入前置步骤。",
+  "garage": {
+    "homography": [
+      [
+        0.17073261519792682,
+        0.0011191396385685647,
+        72.71304617053565
+      ],
+      [
+        0.0009510906329486871,
+        0.17121200017760557,
+        230.74775532032263
+      ],
+      [
+        3.7973169098719678e-06,
+        4.1164381138754845e-06,
+        1.0012853978773344
+      ]
+    ],
+    "point": [
+      704.8927612304688,
+      682.749267578125
+    ],
+    "matches": 500,
+    "inliers": 224,
+    "referenceInliers": 74,
+    "sourceFrame": 39,
+    "viaFrame": 36,
+    "sourceCrop": [
+      70,
+      60,
+      1280,
+      600
+    ],
+    "sourcePoint": [
+      640,
+      358
+    ],
+    "referenceCrop": [
+      2650,
+      2450,
+      3300,
+      3100
+    ],
+    "pointOnFrame36": [
+      195.73353576660156,
+      277.52232360839844
+    ]
+  },
+  "apartment": {
+    "homography": [
+      [
+        0.3052254996494642,
+        0.002500320545961677,
+        130.99365898807923
+      ],
+      [
+        -0.0010415747714192956,
+        0.30972155047569955,
+        214.32575211773067
+      ],
+      [
+        -3.5986808862911374e-06,
+        1.1392352651055514e-05,
+        1.0
+      ]
+    ],
+    "point": [
+      738.8243408203125,
+      689.6690673828125
+    ],
+    "matches": 253,
+    "inliers": 74,
+    "sourceFrame": 36,
+    "sourceCrop": [
+      70,
+      60,
+      1280,
+      650
+    ],
+    "sourcePoint": [
+      640,
+      368
+    ],
+    "referenceCrop": [
+      2650,
+      2450,
+      3300,
+      3100
+    ]
+  },
+  "passcode": {
+    "value": "92665",
+    "frameSeconds": 33,
+    "purpose": "LaPerle车库门禁"
+  },
+  "computerAnswers": [
+    "Muffin",
+    "Queen",
+    "15"
+  ],
+  "frames": [
+    {
+      "seconds": 39,
+      "crop": [
+        70,
+        60,
+        1280,
+        600
+      ],
+      "point": [
+        570,
+        298
+      ]
+    },
+    {
+      "seconds": 36,
+      "crop": [
+        70,
+        60,
+        1280,
+        600
+      ],
+      "point": [
+        570,
+        308
+      ]
+    }
+  ]
+}
