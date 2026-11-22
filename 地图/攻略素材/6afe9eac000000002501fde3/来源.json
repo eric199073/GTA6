@@ -1,0 +1,63 @@
+{
+  "source": {
+    "author": "咖喱游戏解说",
+    "type": "video",
+    "title": "GTA6前期如何找到飞机，开地图迷雾！",
+    "url": "https://www.rednote.com/discovery/item/6afe9eac000000002501fde3?xsec_token=ABz39SFB1B3sqIKV84P-QYXMPavR2AtrBsi3pklGyNb6M=&xsec_source=pc_search&source=web_search_result_notes",
+    "canonicalUrl": "https://www.rednote.com/discovery/item/6afe9eac000000002501fde3",
+    "durationSeconds": 30
+  },
+  "alignment": {
+    "homography": [
+      [
+        0.9872995121369899,
+        -0.0002559155989438056,
+        -282.0841050800162
+      ],
+      [
+        -4.02590837298704e-05,
+        0.9873542044704511,
+        69.09157600809807
+      ],
+      [
+        -3.5381890665460356e-07,
+        -1.630685210175434e-06,
+        1.0
+      ]
+    ],
+    "point": [
+      595.1983642578125,
+      1028.3875732421875
+    ],
+    "matches": 496,
+    "inliers": 449,
+    "sourceFrame": 4,
+    "crop": [
+      70,
+      60,
+      1280,
+      600
+    ],
+    "sourcePoint": [
+      640,
+      358
+    ],
+    "referenceCrop": [
+      2100,
+      3750,
+      2900,
+      4500
+    ]
+  },
+  "crop": [
+    70,
+    60,
+    1280,
+    600
+  ],
+  "point": [
+    570,
+    298
+  ],
+  "mode": "aircraft"
+}

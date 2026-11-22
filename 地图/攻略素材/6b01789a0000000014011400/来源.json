@@ -1,0 +1,70 @@
+{
+  "source": {
+    "author": "游Qia",
+    "type": "video",
+    "title": "GTA6｜兰博基尼白嫖点！传奇消音枪一起拿",
+    "url": "https://www.rednote.com/discovery/item/6b01789a0000000014011400?xsec_token=ABtuzJForVp6TpMx4Psv2lfRH5N32YKxPACAm6ZiMw0SY=&xsec_source=pc_search&source=web_search_result_notes",
+    "canonicalUrl": "https://www.rednote.com/discovery/item/6b01789a0000000014011400",
+    "durationSeconds": 65
+  },
+  "alignment": {
+    "homography": [
+      [
+        0.415108997041658,
+        -0.004505942213223294,
+        108.60388943955884
+      ],
+      [
+        0.007323762555602372,
+        0.41381554014879957,
+        133.92105636282983
+      ],
+      [
+        6.74366165425833e-06,
+        -2.413296385821704e-05,
+        1.0
+      ]
+    ],
+    "point": [
+      719.7355346679688,
+      660.2540283203125
+    ],
+    "matches": 57,
+    "inliers": 20,
+    "sourceCrop": [
+      190,
+      450,
+      720,
+      950
+    ],
+    "sourcePoint": [
+      360,
+      584
+    ],
+    "referenceCrop": [
+      2700,
+      2450,
+      3100,
+      2850
+    ]
+  },
+  "communityCrossCheck": {
+    "url": "https://www.gtabase.com/gta-6/map/",
+    "id": "weapon-spawn-057",
+    "name": "Chromium W-10",
+    "mapPoint": [
+      718.8125,
+      661.125
+    ]
+  },
+  "crop": [
+    190,
+    450,
+    720,
+    950
+  ],
+  "point": [
+    170,
+    134
+  ]
+}

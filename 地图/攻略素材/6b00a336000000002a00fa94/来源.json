@@ -1,0 +1,79 @@
+{
+  "source": {
+    "author": "梦国一下",
+    "type": "normal",
+    "title": "GTA6开局别找超跑，第二章后有台“塞纳”",
+    "url": "https://www.rednote.com/discovery/item/6b00a336000000002a00fa94?xsec_token=ABaTQqNcj_aJ5i2DYL9AKTUc46ItC_UcfYYBriXzK-3Hs=&xsec_source=pc_search&source=web_search_result_notes",
+    "canonicalUrl": "https://www.rednote.com/discovery/item/6b00a336000000002a00fa94",
+    "imageCount": 6
+  },
+  "mapImageNumber": 3,
+  "articleMapCrop": [
+    75,
+    936,
+    1015,
+    1359
+  ],
+  "displayCrop": [
+    0,
+    0,
+    940,
+    380
+  ],
+  "alignment": {
+    "homography": [
+      [
+        0.43614824556485177,
+        -0.0030810760331554127,
+        13.937360490184046
+      ],
+      [
+        -0.0004807904724908564,
+        0.4353471419826886,
+        170.6913699478566
+      ],
+      [
+        -1.1504327120996902e-06,
+        -7.234583361741719e-06,
+        1.0
+      ]
+    ],
+    "point": [
+      776.0942993164062,
+      747.8529663085938
+    ],
+    "matches": 153,
+    "inliers": 38,
+    "sourceCrop": [
+      0,
+      0,
+      940,
+      380
+    ],
+    "sourcePoint": [
+      437,
+      162
+    ],
+    "referenceCrop": [
+      2900,
+      2750,
+      3350,
+      3200
+    ]
+  },
+  "communityVehiclePoint": {
+    "url": "https://www.gtabase.com/gta-6/map/",
+    "id": "standout-vehicle-051",
+    "name": "Progen Purple Drank Emerus",
+    "mapPoint": [
+      774.38125,
+      745.15625
+    ]
+  },
+  "projectedPoint": [
+    421.230224609375,
+    137.35067749023438
+  ],
+  "pricing": "正文称登记29900、售价约33000；首次免费仅推测",
+  "note": "仅保留地图节选与提炼步骤，原6张完整图文通过来源链接查看。"
+}

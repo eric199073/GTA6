@@ -1,0 +1,64 @@
+{
+  "source": {
+    "author": "游Qia",
+    "type": "video",
+    "title": "GTA6最强搜刮：奔驰 AMG+ $21000+传奇步枪",
+    "url": "https://www.rednote.com/discovery/item/6b030e27000000000d021000?xsec_token=ABXGbPWF4kUi5MxVcWWELEf1ZnNHwl6WUmJBKduYx5bSk=&xsec_source=pc_search&source=web_search_result_notes",
+    "canonicalUrl": "https://www.rednote.com/discovery/item/6b030e27000000000d021000",
+    "durationSeconds": 105
+  },
+  "locationReference": {
+    "provider": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/map/",
+    "recordId": "gang-operation-023",
+    "worldPoint": [
+      -1128.5,
+      388.7
+    ],
+    "mapPoint": [
+      697.46875,
+      743.70625
+    ]
+  },
+  "videoRoadAlignment": {
+    "homography": [
+      [
+        0.7562739725212105,
+        0.010868502690566776,
+        398.9313130724039
+      ],
+      [
+        -0.006484724918602331,
+        0.7724464429059094,
+        284.15822969150423
+      ],
+      [
+        -1.191591841039391e-05,
+        1.596066417334831e-05,
+        1.0
+      ]
+    ],
+    "pointCandidate": [
+      698.67431640625,
+      743.9818115234375
+    ],
+    "matches": 63,
+    "inliers": 22,
+    "sourceFrame": 16,
+    "crop": [
+      0,
+      204,
+      512,
+      797
+    ],
+    "referenceCrop": [
+      2200,
+      2500,
+      3000,
+      3300
+    ],
+    "note": "中央图标受遮挡，候选点不能单独作为精确目标。"
+  },
+  "weaponFrameSeconds": 75,
+  "note": "视频只显示被字幕遮挡的参考地图，未将区域中心伪装为视频精确光标。"
+}

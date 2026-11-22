@@ -52,6 +52,7 @@ function icons(m){
    const detail=document.createElementNS(ns,'path');detail.setAttribute('d','M11 12v4h3l2-4M5 8h12');icon.append(detail);span.append(icon);
   }else if(category==='cash')span.append(text('span','$','category-cash'));
   else if(category==='vehicle')span.append(text('span','🚗','category-car'));
+  else if(category==='aircraft')span.append(text('span','✈️','category-plane'));
  });return span;
 }
 function currentMap(){return data.map;}
@@ -125,10 +126,10 @@ function collapseDetails(){
 function detailMap(m){
  const d=m.detailMap,figure=document.createElement('figure'),a=document.createElement('a'),map=document.createElementNS(ns,'svg');
  figure.className='detail-map';a.href=d.image;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','打开'+d.caption+'原图');
- map.setAttribute('viewBox','0 0 '+d.width+' '+d.height);map.setAttribute('role','img');map.setAttribute('aria-label',d.caption+'，十字为视频目标');
+ map.setAttribute('viewBox','0 0 '+d.width+' '+d.height);map.setAttribute('role','img');map.setAttribute('aria-label',d.caption+(d.point?'，十字为定位参照':''));
  const img=document.createElementNS(ns,'image');Object.entries({href:d.image,width:d.width,height:d.height}).forEach(([k,v])=>img.setAttribute(k,v));map.append(img);
- const point=d.point,r=Math.max(12,d.width/42),circle=document.createElementNS(ns,'circle');Object.entries({cx:point.x,cy:point.y,r,fill:'none',stroke:'#ffdf66','stroke-width':4}).forEach(([k,v])=>circle.setAttribute(k,v));map.append(circle);
- [[-1,0],[1,0],[0,-1],[0,1]].forEach(([x,y])=>{const line=document.createElementNS(ns,'line');Object.entries({x1:point.x+x*r*1.2,y1:point.y+y*r*1.2,x2:point.x+x*r*1.9,y2:point.y+y*r*1.9,stroke:'#ffdf66','stroke-width':4}).forEach(([k,v])=>line.setAttribute(k,v));map.append(line);});
+ if(d.point){const point=d.point,r=Math.max(12,d.width/42),circle=document.createElementNS(ns,'circle');Object.entries({cx:point.x,cy:point.y,r,fill:'none',stroke:'#ffdf66','stroke-width':4}).forEach(([k,v])=>circle.setAttribute(k,v));map.append(circle);
+ [[-1,0],[1,0],[0,-1],[0,1]].forEach(([x,y])=>{const line=document.createElementNS(ns,'line');Object.entries({x1:point.x+x*r*1.2,y1:point.y+y*r*1.2,x2:point.x+x*r*1.9,y2:point.y+y*r*1.9,stroke:'#ffdf66','stroke-width':4}).forEach(([k,v])=>line.setAttribute(k,v));map.append(line);});}
  a.append(map);figure.append(a,text('figcaption',d.caption+' · 点击看原图'));return figure;
 }
 function select(m,toggle=false){
@@ -141,7 +142,7 @@ function select(m,toggle=false){
  const progressControls=document.createElement('div');progressControls.className='progress-controls';progressControls.setAttribute('role','group');progressControls.setAttribute('aria-label','地点完成情况与星标');
  completedButton=text('button','','completed-toggle');completedButton.type='button';completedButton.id='toggle-completed';completedButton.onclick=()=>updateProgress(m,'completed');
  starredButton=text('button','','starred-toggle');starredButton.type='button';starredButton.id='toggle-starred';starredButton.onclick=()=>updateProgress(m,'starred');progressControls.append(completedButton,starredButton);details.append(progressControls);
- const actions=document.createElement('div');actions.className='actions';actions.append(link('打开原视频',m.source.url,true,true));details.append(actions,text('h3','可以获得'));
+ const actions=document.createElement('div');actions.className='actions';actions.append(link(m.source.type==='normal'?'打开原图文':'打开原视频',m.source.url,true,true));details.append(actions,text('h3','可以获得'));
  const ul=document.createElement('ul');ul.className='rewards';m.rewards.forEach(r=>ul.append(text('li',r)));details.append(ul,text('p',m.rewardNote,'reward-note'));
  if(m.requirements)details.append(text('p',m.requirements,'requirements'));
  details.append(text('h3','攻略定位图'),detailMap(m),text('p',m.detailMap.note,'accuracy'));
@@ -156,7 +157,7 @@ function select(m,toggle=false){
   const steps=document.createElement('ol');steps.className='steps';guide.steps.forEach(step=>steps.append(text('li',step)));section.append(steps);guide.notes.forEach(note=>section.append(text('p',note,'guide-note')));
   section.append(link(guide.source.type==='normal'?'打开补充图文':'打开补充攻略',guide.source.url,false,true),text('p','来源：'+guide.source.author,'source-line'));details.append(section);
  });
- details.append(text('p','来源：'+m.source.author+' · 视频约'+m.source.durationSeconds+'秒','source-line'));
+ details.append(text('p','来源：'+m.source.author+(m.source.type==='normal'?' · 图文'+(m.source.imageCount?' · '+m.source.imageCount+'张图':''):' · 视频约'+m.source.durationSeconds+'秒'),'source-line'));
  refreshProgress();drawRegions();positionPins();
 }
 data.markers.forEach(m=>{

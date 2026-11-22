@@ -1165,6 +1165,343 @@ window.GTA6_MARKERS = {
         ]
       },
       "updated": "2026-11-23"
+    },
+    {
+      "id": "little-cuba-casa-guardia",
+      "number": 16,
+      "title": "Casa Guardia：FRA步枪、搜刮与改装车",
+      "shortTitle": "Casa Guardia",
+      "pinLabel": "Casa Guardia",
+      "location": "罪恶城小古巴 Little Cuba · Casa Guardia 据点",
+      "categories": [
+        "weapon",
+        "cash",
+        "vehicle"
+      ],
+      "position": {
+        "x": 697.47,
+        "y": 743.71,
+        "radius": 4,
+        "accuracy": "community-point-road-checked",
+        "note": "原视频地图中央被字幕遮挡，采用GTABase的Casa Guardia据点坐标，并用22处一致特征对照视频可见街区、道路和建筑范围；到场找带大门楼栋的后墙入口。"
+      },
+      "posterPosition": {
+        "x": 1857.58,
+        "y": 1996.58,
+        "radius": 12
+      },
+      "rewards": [
+        "守卫者兄弟 FRA 突击步枪（GUARDIA BROTHERS FRA ASSAULT RIFLE）",
+        "现金、带标记钞票与藏货：作者汇总约 $21,000 价值",
+        "带氮气的改装轿车（作者称奔驰AMG，估值约 $10,000）",
+        "防弹衣、奢侈手表等"
+      ],
+      "rewardNote": "收益按作者记录，现金与待销赃物品区分；车辆约 $10,000 为估值，未并入约 $21,000 搜刮汇总。",
+      "requirements": "据点有守卫；路线包含翻墙、上屋顶与梯子。潜行奖励按视频条件触发。",
+      "source": {
+        "author": "游Qia",
+        "type": "video",
+        "title": "GTA6最强搜刮：奔驰 AMG+ $21000+传奇步枪",
+        "url": "https://www.rednote.com/discovery/item/6b030e27000000000d021000?xsec_token=ABXGbPWF4kUi5MxVcWWELEf1ZnNHwl6WUmJBKduYx5bSk=&xsec_source=pc_search&source=web_search_result_notes",
+        "canonicalUrl": "https://www.rednote.com/discovery/item/6b030e27000000000d021000",
+        "durationSeconds": 105
+      },
+      "detailMap": {
+        "image": "攻略素材/6b030e27000000000d021000/CasaGuardia楼栋定位图.jpg",
+        "width": 500,
+        "height": 500,
+        "point": {
+          "x": 219.875,
+          "y": 224.82499999999982
+        },
+        "caption": "Casa Guardia 楼栋定位 · 社区点位与视频街区核对",
+        "note": "十字标据点楼栋范围；原视频参考图放在下方。到楼后从围墙、脚手架和梯子进入。"
+      },
+      "mapScreenshot": "攻略素材/6b030e27000000000d021000/CasaGuardia楼栋定位图.jpg",
+      "walkthrough": {
+        "steps": [
+          {
+            "time": "00:16–00:27",
+            "text": "到小古巴Casa Guardia带大门的楼栋，绕后面翻墙，避免只在正门找入口。"
+          },
+          {
+            "time": "00:28–00:35",
+            "text": "借脚手架上屋顶，再找梯子翻进楼内。"
+          },
+          {
+            "time": "00:37–00:45",
+            "text": "先检查手表等贵重物品，以及松动地板下的现金；作者称地板处约 $1,300。"
+          },
+          {
+            "time": "00:46–00:55",
+            "text": "蹲行到保险柜附近，按视频处理守卫；作者演示潜行奖励，保险柜处约 $2,800。"
+          },
+          {
+            "time": "00:58–01:07",
+            "text": "继续搜楼上桌面和小柜，再从梯子下到一楼。"
+          },
+          {
+            "time": "01:08–01:17",
+            "text": "一楼建议按视频使用消音武器处理守卫，进右手边笼子区域拿防弹衣与FRA步枪。"
+          },
+          {
+            "time": "01:18–01:31",
+            "text": "检查中间桌子两大袋钱，作者合计约 $14,000；再搜最后两张桌子的现金、珠宝和带标记钞票。"
+          },
+          {
+            "time": "01:32–01:44",
+            "text": "从侧门离开，检查院内改装轿车；车辆估价和登记按现场提示处理。"
+          }
+        ],
+        "notes": [
+          "约 $21,000 为作者对整趟搜刮的汇总；地板、保险柜及中间桌子的金额是组成部分，不重复叠加。"
+        ]
+      },
+      "updated": "2026-11-23",
+      "alternateMaps": [
+        {
+          "image": "攻略素材/6b030e27000000000d021000/CasaGuardia原视频参考图.jpg",
+          "width": 512,
+          "height": 593,
+          "point": null,
+          "caption": "原视频参考地图 · 00:16",
+          "note": "中央目标受字幕遮挡，保留原图作为街区参照；此图不添加假造的可见目标十字。"
+        }
+      ]
+    },
+    {
+      "id": "bayside-chromium-w10-house",
+      "number": 17,
+      "title": "W-10住宅：消音冲锋枪、SUV与财物",
+      "shortTitle": "W-10住宅与SUV",
+      "pinLabel": "W-10住宅与SUV",
+      "location": "罪恶城 Bayside 西北侧 · Stockyard以西的住宅",
+      "categories": [
+        "weapon",
+        "cash",
+        "vehicle"
+      ],
+      "position": {
+        "x": 719.74,
+        "y": 660.25,
+        "radius": 4,
+        "accuracy": "screenshot-road-alignment",
+        "note": "按视频00:11绿色导航目标对应房屋入口，通过20处一致特征及街区轮廓核对；与GTABase Chromium W-10武器点在同一房屋附近。"
+      },
+      "posterPosition": {
+        "x": 1922.72,
+        "y": 1752.43,
+        "radius": 12
+      },
+      "rewards": [
+        "Chromium W-10 消音冲锋枪（卧室床上枪盒）",
+        "门外SUV（作者称兰博基尼，展示GANGSTA车牌）",
+        "厨房地砖下现金，视频一次显示 $1,184",
+        "屋内其他现金、钱包和贵重物资"
+      ],
+      "rewardNote": "车型沿用作者称呼；现金与可销赃物资分列，视频未公布整趟固定收益。",
+      "requirements": "屋外有帮派看守，搜刮后警方会很快接近，避免在屋内久留。",
+      "source": {
+        "author": "游Qia",
+        "type": "video",
+        "title": "GTA6｜兰博基尼白嫖点！传奇消音枪一起拿",
+        "url": "https://www.rednote.com/discovery/item/6b01789a0000000014011400?xsec_token=ABtuzJForVp6TpMx4Psv2lfRH5N32YKxPACAm6ZiMw0SY=&xsec_source=pc_search&source=web_search_result_notes",
+        "canonicalUrl": "https://www.rednote.com/discovery/item/6b01789a0000000014011400",
+        "durationSeconds": 65
+      },
+      "detailMap": {
+        "image": "攻略素材/6b01789a0000000014011400/W10住宅入口定位图.jpg",
+        "width": 530,
+        "height": 500,
+        "point": {
+          "x": 170,
+          "y": 134
+        },
+        "caption": "W-10住宅入口 · 视频00:11",
+        "note": "十字对齐原视频绿色Destination导航点。目标是街边住宅入口，武器在卧室床上，SUV在门外。"
+      },
+      "mapScreenshot": "攻略素材/6b01789a0000000014011400/W10住宅入口定位图.jpg",
+      "walkthrough": {
+        "steps": [
+          {
+            "time": "00:10–00:15",
+            "text": "按定位图到住宅，注意门口帮派看守。"
+          },
+          {
+            "time": "00:16–00:23",
+            "text": "进屋检查桌面等财物，再到卧室找床上的武器箱。"
+          },
+          {
+            "time": "00:24–00:29",
+            "text": "打开床上枪盒，拿Chromium W-10消音冲锋枪。"
+          },
+          {
+            "time": "00:30–00:38",
+            "text": "搜查其他屋内财物，别漏掉厨房松动地砖；视频展示地砖下现金 $1,184。"
+          },
+          {
+            "time": "00:39–00:45",
+            "text": "留意警方靠近；只想取车可优先到屋外SUV，检查解锁与追踪器状态。"
+          },
+          {
+            "time": "00:46–01:04",
+            "text": "作者展示车辆已解锁、无追踪器，可以驾驶离开；登记与个人载具归属按现场提示处理。"
+          }
+        ],
+        "notes": [
+          "此住宅与原4号卡萨诺瓦岛金色SUV不是同一地点。"
+        ]
+      },
+      "updated": "2026-11-23"
+    },
+    {
+      "id": "hamlet-airstrip-plane",
+      "number": 18,
+      "title": "哈姆雷特跑道：前期开图飞机",
+      "shortTitle": "跑道飞机",
+      "pinLabel": "跑道飞机",
+      "location": "哈姆雷特南侧 · 主干道西侧跑道北段",
+      "categories": [
+        "aircraft"
+      ],
+      "position": {
+        "x": 595.2,
+        "y": 1028.39,
+        "radius": 4,
+        "accuracy": "screenshot-road-alignment",
+        "note": "按视频00:04绿色星标所指跑道，通过449处一致地图特征核对；飞机在该草地跑道附近。"
+      },
+      "posterPosition": {
+        "x": 1558.33,
+        "y": 2829.51,
+        "radius": 12
+      },
+      "rewards": [
+        "跑道旁小型双翼飞机（作者称此处固定刷新）"
+      ],
+      "rewardNote": "飞行耗时为作者体验及估计，非固定任务时限。",
+      "requirements": "起飞与操纵按游戏内提示；作者称此处固定刷新，仍以当前现场状态为准。",
+      "source": {
+        "author": "咖喱游戏解说",
+        "type": "video",
+        "title": "GTA6前期如何找到飞机，开地图迷雾！",
+        "url": "https://www.rednote.com/discovery/item/6afe9eac000000002501fde3?xsec_token=ABz39SFB1B3sqIKV84P-QYXMPavR2AtrBsi3pklGyNb6M=&xsec_source=pc_search&source=web_search_result_notes",
+        "canonicalUrl": "https://www.rednote.com/discovery/item/6afe9eac000000002501fde3",
+        "durationSeconds": 30
+      },
+      "detailMap": {
+        "image": "攻略素材/6afe9eac000000002501fde3/哈姆雷特跑道飞机定位图.jpg",
+        "width": 1210,
+        "height": 540,
+        "point": {
+          "x": 570,
+          "y": 298
+        },
+        "caption": "开图飞机跑道 · 视频00:04",
+        "note": "十字对齐视频选中的绿色星标。到跑道北侧附近找小型飞机，实际刷新位置以现场为准。"
+      },
+      "mapScreenshot": "攻略素材/6afe9eac000000002501fde3/哈姆雷特跑道飞机定位图.jpg",
+      "walkthrough": {
+        "steps": [
+          {
+            "time": "00:02–00:07",
+            "text": "选择定位图所示的跑道，前往绿色星标附近寻找飞机。"
+          },
+          {
+            "time": "00:07–00:11",
+            "text": "按现场提示登机并起飞，沿未探索区域飞行打开迷雾。"
+          },
+          {
+            "time": "00:11–00:23",
+            "text": "作者环绕全境一圈约20多分钟，估计完全探索内陆还需2–3小时；按需要分段探索。"
+          }
+        ],
+        "notes": [
+          "视频没有确认正式飞机型号，因此先按小型双翼飞机记录。",
+          "跑道飞机是独立新点，与附近13号旅馆或9号修车场入口不同。"
+        ]
+      },
+      "updated": "2026-11-23"
+    },
+    {
+      "id": "waxman-purple-emerus",
+      "number": 19,
+      "title": "沃克斯曼岛：紫色Progen Emerus",
+      "shortTitle": "紫色Emerus",
+      "pinLabel": "紫色Emerus",
+      "location": "沃克斯曼岛 Waxman Island · 喷漆室旁集装箱车场",
+      "categories": [
+        "vehicle",
+        "weapon",
+        "cash"
+      ],
+      "position": {
+        "x": 774.38,
+        "y": 745.16,
+        "radius": 4,
+        "accuracy": "community-vehicle-point-road-checked",
+        "note": "按GTABase紫色Emerus车辆点位，结合图文喷漆室截图38处一致特征对应到取车院落；原图橙色喷漆室图标只作附近入口参照。"
+      },
+      "posterPosition": {
+        "x": 2082.61,
+        "y": 2000.91,
+        "radius": 12
+      },
+      "rewards": [
+        "紫色Progen Emerus（作者以迈凯伦Senna作外形参照）",
+        "二楼现金与金色手枪（型号、现金总额未说明）"
+      ],
+      "rewardNote": "登记费为支出；售价估计与现金奖励分开。未使用额度是否能免费以现场为准。",
+      "requirements": "按作者流程需到第二章认识莫西后登记；建议先安排拖车，车辆被毁或退出游戏可能影响保留。",
+      "source": {
+        "author": "梦国一下",
+        "type": "normal",
+        "title": "GTA6开局别找超跑，第二章后有台“塞纳”",
+        "url": "https://www.rednote.com/discovery/item/6b00a336000000002a00fa94?xsec_token=ABaTQqNcj_aJ5i2DYL9AKTUc46ItC_UcfYYBriXzK-3Hs=&xsec_source=pc_search&source=web_search_result_notes",
+        "canonicalUrl": "https://www.rednote.com/discovery/item/6b00a336000000002a00fa94",
+        "imageCount": 6
+      },
+      "detailMap": {
+        "image": "攻略素材/6b00a336000000002a00fa94/沃克斯曼岛取车院落定位图.jpg",
+        "width": 940,
+        "height": 380,
+        "point": {
+          "x": 421.230224609375,
+          "y": 137.35067749023438
+        },
+        "caption": "紫色Emerus取车院落 · 图文第3张地图节选",
+        "note": "原图选中的是沃克斯曼岛喷漆室。十字按旁边紫色Emerus车辆点对应到取车院落，车辆在集装箱内，按步骤从侧后方翻围栏。"
+      },
+      "mapScreenshot": "攻略素材/6b00a336000000002a00fa94/沃克斯曼岛取车院落定位图.jpg",
+      "walkthrough": {
+        "steps": [
+          {
+            "time": "图3",
+            "text": "到沃克斯曼岛喷漆室旁，观察紫色跑车进入集装箱；正门有守卫，绕侧面或后方翻围栏。"
+          },
+          {
+            "time": "图3–4",
+            "text": "处理院内守卫后，上二楼房间搜现金与金色手枪。作者不知道房间保险箱密码，未编造代码。"
+          },
+          {
+            "time": "图4",
+            "text": "回到集装箱取车，作者称车辆未上锁、没有追踪器。"
+          },
+          {
+            "time": "图4–5",
+            "text": "先拖车去找第二章认识的莫西办理登记，再自由驾驶。作者正文称登记费约 $29,900。"
+          },
+          {
+            "time": "图5",
+            "text": "若仍有首次免费登记额度，作者推测可尝试免费登记；须以当前账户额度和现场提示为准。"
+          }
+        ],
+        "notes": [
+          "图文标题/简介概括为约 $33,000，但正文区分售价约 $33,000 与登记费 $29,900，按正文记录，不把售价当登记费。",
+          "“0元方案”为作者推测，尚未实测；首次额度是否可用取决于已有登记记录。"
+        ]
+      },
+      "updated": "2026-11-23"
     }
   ]
 };

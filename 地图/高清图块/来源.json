@@ -9,9 +9,12 @@
     6
   ],
   "detailRadiusInOverviewPixels": 48,
-  "tileCount": 2377,
+  "tileCount": 2601,
   "note": "远程图块响应携带 Cross-Origin-Resource-Policy: same-origin；页面使用本地资源。",
-  "markerCount": 15,
-  "coverage": "现有15个攻略点周边48逻辑像素，4–6级；全境底图为第3级",
-  "updated": "2026-11-23"
+  "markerCount": 19,
+  "coverage": "现有19个攻略点周边48逻辑像素，4–6级；全境底图为第3级",
+  "updated": "2026-11-23",
+  "tileAuthors": "gtadb.org and contributors",
+  "tileLicense": "CC BY 4.0",
+  "tileLicenseURL": "https://creativecommons.org/licenses/by/4.0/"
 }
